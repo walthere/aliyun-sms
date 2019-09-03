@@ -1,0 +1,20 @@
+{
+    "name": "walthere/aliyun-sms",
+    "description": "aliyun simple sms",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "walthere",
+            "email": "walthere@vip.qq.com"
+        }
+    ],
+    "require": {
+        "alibabacloud/client": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Walthere\\Aliyun\\Sms\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
